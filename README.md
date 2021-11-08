@@ -2,6 +2,8 @@
 
 ## 基本情報
 - Name: 東海林 昴(Subaru Shoji)
+- Zenn: https://zenn.dev/suba
+- Twitter: https://twitter.com/migutw42
 
 ## スキル
 ### 業務レベルで使える言語、フレームワーク等
@@ -16,6 +18,8 @@
 - TypeScript
 	- React
 	- Angular
+- Clojure
+	- duct
 - JavaScript
 	- Chrome Extension
 - Golang
@@ -55,7 +59,7 @@
 - Hanami
 	- Magicがない綺麗な構成でRailsよりやってみたい
 - Elixir
-	- メッセージ指向が面白い
+	- メッセージ指向が面白そう
 
 ### 価値観
 - シンプルなものが好き
@@ -90,7 +94,42 @@
 
 ### 職務経歴
 
-### アンケート動画配信用のサービス改修
+#### 為替データ保存/参照用のMicroservice実装
+
+##### 概要
+共通データベースに保存された日次の為替情報を読み出して保存し、保存されたデータを参照できるMicroservice
+
+##### 言語・フレームワーク
+
+* clojure
+	* duct
+* gauge-java
+* wiremock
+* kubernetes
+* skaffold
+* postgresql
+* mysql
+
+##### 担当工程
+
+* 開発
+
+#### アンケート調査用動画配信サービスの改修
+
+##### 言語・フレームワーク
+
+* rails
+* typescript
+	* preact
+	* plyr
+* docker
+* mysql
+
+##### 概要
+動画付きアンケートを配信するサービス
+
+
+#### アンケート動画配信用のサービス改修
 
 ##### 概要
 
