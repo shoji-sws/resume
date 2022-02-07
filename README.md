@@ -1,3 +1,11 @@
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+<style>
+  body {
+   font-family: 'Noto Serif JP', serif;
+  }
+</style>
+
 # 職務経歴書
 
 ## 基本情報
@@ -5,6 +13,7 @@
 - Name: 東海林 昴(Subaru Shoji)
 - Zenn: https://zenn.dev/suba
 - Twitter: https://twitter.com/migutw42
+- プログラマー歴: 2014 年〜(7 年目)
 
 ## スキル
 
@@ -27,10 +36,14 @@
   - Chrome Extension
 - Golang
   - Echo
+  - Gin
+- Kotlin
+  - Spring Boot
+  - gauge
 - ShellScript
   - bash
   - fish
-- Grooby
+- Groovy
   - Grails
   - build.gradle
 - Python
@@ -41,6 +54,9 @@
   - Ruby on Rails
 - PHP
   - CakePHP
+- kubernetes
+- skaffold
+- docker
 - MySQL
 - PostgreSQL
 - Oracle
@@ -64,7 +80,9 @@
 - Elixir
   - メッセージ指向が面白そう
 
-### 価値観
+<div style="page-break-before:always"></div>
+
+## 価値観
 
 - シンプルなものが好き
 - チームのベロシティを上げることが開発において大事
@@ -74,19 +92,19 @@
 - 詰まったら Github でソースコード読もう
   - 詰まってるライブラリのコードとか Example とか
 
-### 強み
+## 強み
 
 - 幅広く興味を持って、実際に試してみる
 - リファクタリングが得意
 - Clean Architecture や新しいライブラリをチームに導入して、上手くいくまでチーム全体のサポートをできる
 - 空気を読まずに意見できる
 
-### 弱み
+## 弱み
 
 - DB の種類に応じた細かいチューニングの知識が少ない
 - 大規模なマイクロサービス群の設計の経験がない
 
-### 好きな技術書
+## 好きな技術書
 
 - Unix という考え方
 - Clean Architecture
@@ -98,15 +116,21 @@
 - リーダブルコード
 - エリック・エヴァンスのドメイン駆動設計
 
-### 職務経歴
+<div style="page-break-before:always"></div>
 
-#### 為替データ保存/参照用の Microservice 実装
+## 職務経歴
 
-##### 概要
+### 為替データ保存/参照用の Microservice 実装
+
+#### 概要
 
 共通データベースに保存された日次の為替情報を読み出して保存し、保存されたデータを参照できる Microservice
 
-##### 言語・フレームワーク
+#### 期間
+
+2021-10-01 ~ 2021-12-31
+
+#### 言語・フレームワーク
 
 - clojure
   - duct
@@ -117,67 +141,60 @@
 - postgresql
 - mysql
 
-##### 担当工程
-
-- 設計
-- 開発
-- テスト
-
-#### アンケート調査用動画配信サービスの改修
-
-##### 概要
-
-動画付きアンケートを配信するサービス
-
-##### 言語・フレームワーク
-
-- rails
-- typescript
-  - preact
-  - plyr
-- docker
-- mysql
-
-##### 担当工程
+#### 担当工程
 
 - アーキテクチャ設計(ドメイン)
 - 開発
 - テスト(e2e)
 
-##### 補足事項
+#### 担当工程
+
+- 設計
+- 開発
+- テスト
+
+#### 補足事項
 
 - 開発している間にデータ構造がわかりづらくなったので、DDD を参考にドメインを定義した
 - 100%ペアプログラミングで行った
 - テストは e2e で担保した
 
-#### アンケート動画配信用のサービス改修
+<div style="page-break-before:always"></div>
 
-##### 概要
+### アンケート動画配信用のサービス改修
+
+#### 概要
 
 アンケート付きの動画を配信するサービス
 
 動画を再生したら一定時間でアンケートが出現する
 
-##### 言語・フレームワーク
+#### 期間
+
+2021-06-01 ~ 2021-09-30
+
+#### 言語・フレームワーク
 
 - Ruby on Rails
 - Preact (typescript)
 - mysql
 - docker
 
-##### 担当工程
+#### 担当工程
 
 - アーキテクチャ設計(フロントエンド)
 - 開発
 
-##### 補足事項
+#### 補足事項
 
 - フロントエンドに新規機能を追加する際、既存の設計だと改修が難しかったので、新規部分は新しく設計した
   - 上記の際、ビルドファイルの容量を少なくする要件があったため、preact-hooks のみを使い保守性が高くなるように実装した
 
-#### 百貨店アプリ
+<div style="page-break-before:always"></div>
 
-##### 概要
+### 百貨店アプリ
+
+#### 概要
 
 百貨店向けの総合アプリ
 
@@ -187,20 +204,56 @@
 - クーポン券の発行
 - 百貨店の情報
 
-##### 言語・フレームワーク
+#### 期間
+
+2019-04-01 ~ 2021-06-30
+
+#### 言語・フレームワーク
 
 - flutter
 - bitrise
 - circle ci
 
-##### 担当工程
+#### 担当工程
 
 - 要件定義
 - アーキテクチャ設計
 - 開発
 - テスト
 
-##### 補足事項
+#### 補足事項
 
 - アプリ部分の全体の設計を行った
 - 設計に基づいて作成したアプリの構造が壊れないように、チームメンバーへアーキテクチャに関するティーチングや、レビューを積極的に行っていた
+
+<div style="page-break-before:always"></div>
+
+### VOD(動画配信)サービスの改修
+
+#### 概要
+
+B2B の動画配信サービスの機能ごとの Microservice を作成
+
+#### 期間
+
+2018-07-01 ~ 2019-03-31
+
+#### 言語・フレームワーク
+
+- Golang
+  - Gin
+- Python
+  - Flask
+- JavaScript
+  - React
+- Ruby on Rails
+
+#### 担当工程
+
+- 設計
+- 実装
+- テスト
+
+#### 補足事項
+
+- ストリーミングファイルに関しての知識を得られた
