@@ -60,19 +60,20 @@
 - MySQL
 - PostgreSQL
 - Oracle
+- openapi
 
 ### 興味のある勉強中の言語、フレームワーク等
 
+- F#
+  - フロントもバックエンドもできる関数型言語で面白そう
 - Rust
-  - Frontend と Backend の両方を Rust で試行錯誤中
   - 開発環境作るの楽だし、CLI アプリをさくって作れて楽しい
     - gyazo アップローダー作った
 - Elm
-  - 個人用の PWA アプリ作成中
+  - ルールに従っていくとSPAができていく感じが好き
+  - SSGができるか検証したい
 - GraphQL
   - 使ってみたら REST API よりやりやすかったので、業務で使ってみたい
-- Firebase
-  - Firestore がかなり楽なので、業務で使ってみたい
 - ClojureScript
   - re-frame が TS の React + Redux より書きやすくて面白い
 - Hanami
@@ -106,8 +107,8 @@
 
 ## 好きな技術書
 
-- Unix という考え方
 - Clean Architecture
+- ソフトウェアアーキテクチャの基礎
 - レガシーコード改善ガイド
 - ユースケース駆動開発実践ガイド
 - プログラマが知るべき 97 のこと
@@ -115,10 +116,52 @@
 - アジャイルサムライ
 - リーダブルコード
 - エリック・エヴァンスのドメイン駆動設計
+- Unix という考え方
+
 
 <div style="page-break-before:always"></div>
 
 ## 職務経歴
+
+### 不動産建築の工程管理チャットアプリ実装
+
+#### 概要
+
+不動産建築のため、施工主や施主がコミュニケーションできるチャットアプリ
+Web, Android, iOS 対応
+
+#### 期間
+
+2022-01-01 ~ 2022-06-30
+
+#### 言語・フレームワーク
+
+- flutter
+  - riverpod
+  - go_router_builder
+  - flutter_hooks
+  - freezed
+- firebase
+  - firestore
+  - cloud functions
+  - fcm
+  - app authentication
+- openapi
+- python(ここは自分は実装せず)
+  - django
+- bitrise
+
+#### 補足
+
+フロントエンド担当として、WebとMobileの両方をFlutterで実装した。 
+この際、ある程度実装されたものを前任から引き継いだのが、レイヤー分割されておらず、これ以上変更ができない状況になっていたため、苦渋の決断でコードを全部破棄した。
+
+デザインに関しても、Flutterのデフォルトに沿っていないデザインが決まっていたが、そのままだとリリース日に間に合わないため、Flutterのデフォルトにある程度よせるように調整した。  
+また、WebとMobileで全く別のデザインになっていたので、先にMobile側を作り込み、作成したMobileのWidgetを利用して、Web側で実装できるよう調整した。
+
+アーキテクチャとしては、clean architectureを採用したが、use case部分は一つのビジネスロジックに対して一つのファイルを作り、疎結合になるように心がけた。その際、query, command, subscriberという役割で分割した。
+
+server側との通信に関して、serverのdjangoでopenapiを生成して、それをflutterのクラスファイルに変換して、server側との整合性を取りやすくした。
 
 ### 為替データ保存/参照用の Microservice 実装
 
@@ -146,12 +189,6 @@
 - アーキテクチャ設計(ドメイン)
 - 開発
 - テスト(e2e)
-
-#### 担当工程
-
-- 設計
-- 開発
-- テスト
 
 #### 補足事項
 
