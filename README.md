@@ -1,10 +1,5 @@
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
-<style>
-  body {
-   font-family: 'Noto Serif JP', serif;
-  }
-</style>
 
 # 職務経歴書
 
@@ -294,3 +289,9 @@ B2B の動画配信サービスの機能ごとの Microservice を作成
 #### 補足事項
 
 - ストリーミングファイルに関しての知識を得られた
+
+<style>
+  body {
+   font-family: 'Noto Serif JP', serif;
+  }
+</style>
