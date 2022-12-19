@@ -158,6 +158,8 @@ redux-tool-kit で rkt query が使われていなかったので、openapi か�
 UI 用のコンポーネントやテーマを整理した。
 ビルドが遅かったので esbuild を導入した。
 
+<div style="page-break-before:always"></div>
+
 ### 不動産建築の工程管理チャットアプリ実装
 
 #### 概要
@@ -197,6 +199,8 @@ Web, Android, iOS 対応
 アーキテクチャとしては、clean architecture を採用したが、use case 部分は一つのビジネスロジックに対して一つのファイルを作り、疎結合になるように心がけた。その際、query, command, subscriber という役割で分割した。
 
 server 側との通信に関して、server の django で openapi を生成して、それを flutter のクラスファイルに変換して、server 側との整合性を取りやすくした。
+
+<div style="page-break-before:always"></div>
 
 ### 為替データ保存/参照用の Microservice 実装
 
