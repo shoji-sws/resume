@@ -123,6 +123,37 @@
 
 ## 職務経歴
 
+### 配車管理サービスの改修
+
+#### 概要
+
+ジオフェンシング機能
+
+#### 期間
+
+2023-02-01 ~ 2023-09-30
+
+#### 言語・フレームワーク
+
+- flutter
+  - riverpod
+  - auto_router
+  - freezed
+  - flutter_background_geolocation
+- firebase
+  - realtime database
+  - cloud functions
+    - javascript
+    - jest
+- Google
+  - google_map_api
+
+#### 補足
+
+モバイルと cloud functions を担当した。
+モバイルに関しては、主に geofencing や geofencing の状態を管理する機能を実装した。
+cloud functions では、google map api との通信や、レイヤー構造の修正、e2e テスト環境を実装した。
+
 ### 教材配信サービスの改修
 
 #### 概要
