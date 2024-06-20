@@ -9,7 +9,7 @@
 - Zenn: https://zenn.dev/suba
 - Twitter: https://twitter.com/subaru_shoji
 - Github: https://github.com/subaru-shoji
-- プログラマー歴: 2014 年〜(8 年目)
+- プログラマー歴: 2014 年〜(10 年目)
 
 ## スキル
 
