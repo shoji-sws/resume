@@ -1,3 +1,6 @@
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+
 # 職務経歴書
 
 ## 基本情報
@@ -297,14 +300,13 @@ API 提供サービスの保守・新規開発を行った
 
 ##### 保守フェーズ
 - 既存API(Express, Spring Boot)のバグ修正、パフォーマンス改善、および小規模な機能追加。
-- フロントエンド(React)部分の改修、UX改善。
+- フロントエンド(React)部分の改修。
 - 定期的なライブラリのアップデートと脆弱性対応。
 
 ##### 新規開発フェーズ
 - 新規APIエンドポイントの設計・開発。
-- ReactおよびReact Routerを用いた新規画面の開発、状態管理の設計。
+- ReactおよびReact Routerを用いた新規画面の開発。
 - Drizzle ORMを利用したデータベーススキーマの設計とマイグレーション。
-- 新機能に関する単体テスト・結合テストの作成と実施。
 
 <div style="page-break-before:always"></div>
 
