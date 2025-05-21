@@ -296,6 +296,18 @@ API 提供サービスの保守・新規開発を行った
 - mysql(aws aurora)
 - drizzle
 
+#### 業務内容
+
+##### 保守フェーズ
+- 既存API(Express, Spring Boot)のバグ修正、パフォーマンス改善、および小規模な機能追加。
+- フロントエンド(React)部分の改修。
+- 定期的なライブラリのアップデートと脆弱性対応。
+
+##### 新規開発フェーズ
+- 新規APIエンドポイントの設計・開発。
+- ReactおよびReact Routerを用いた新規画面の開発。
+- Drizzle ORMを利用したデータベーススキーマの設計とマイグレーション。
+
 <div style="page-break-before:always"></div>
 
 ### 配車管理サービスの改修(サーバー側)
