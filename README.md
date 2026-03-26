@@ -56,16 +56,11 @@
     - Echo
     - Gin
   - Ruby(4 年)
-
     - Ruby on Rails
     - rbs
-
   - Clojure(0.5 年)
-
     - duct
-
   - Kotlin(0.5 年)
-
     - Spring Boot
     - gauge
 
