@@ -10,8 +10,8 @@
 - ブログ: https://www.simple-web-system.work/
 - Twitter: https://twitter.com/subaru_shoji
 - Github: https://github.com/subaru-shoji
-- プログラマー歴: 2014 年〜(11 年目)
-- フリーランス歴: 2016 年〜(9 年目)
+- プログラマー歴: 2014 年〜(12 年目)
+- フリーランス歴: 2016 年〜(10 年目)
 
 ## ポジション経験
 
@@ -35,14 +35,14 @@
 
     - React
       - react-router
-      - next
+      - nextjs
       - material ui
     - solidjs（趣味で2ヶ月）
     - Angular
 
 - モバイル
 
-  - Dart(3 年)
+  - Dart(3.5 年)
 
     - Flutter
       - riverpod
@@ -64,10 +64,10 @@
 
     - duct
 
-- Kotlin(0.5 年)
+  - Kotlin(0.5 年)
 
-  - Spring Boot
-  - gauge
+    - Spring Boot
+    - gauge
 
 - インフラ
 
@@ -77,7 +77,7 @@
   - AWS(3.5 年)
     - amplify
     - lambda
-    - step funtions
+    - step functions
     - ecs
   - GCP(1 年)
     - Firebase(2 年)
@@ -92,7 +92,7 @@
     - skaffold
   - docker(4 年)
 
-- AI Tool
+- AI Tool(2 年)
   - claude code
   - codex
   - cline
@@ -102,7 +102,7 @@
 
 - openapi(2 年)
   - typespec
-- Noevim(2 年)
+- Neovim(2 年)
   - Lua
 
 
@@ -160,13 +160,13 @@
     - ライブラリ
   - リファクタリングが得意
     - 複雑になったシステムの概念を整理できる
-    - 複雑になったシステムの計画的にリファクタリングできる
+    - 複雑になったシステムを計画的にリファクタリングできる
   - 開発チーム全体への意見ができる
     - 曖昧な問題を言語化して提起する
     - 非効率な開発方法が長年使われていたとして、それを改善する提案ができる
 - 幅広く興味を持って、実際に試してみる
 
-## 伸び代
+## 今後伸ばしていきたい領域
 
 - 大規模で複雑なシステム（複数のマイクロサービス群）でチューニングした経験はあまりない
 - 理論的にLLMのチューニングをしたことはあまりない。
@@ -262,7 +262,7 @@
 
 ### AIエージェント・アプリ開発
 
-2024-06-01 ~ 2025-03-31
+2025-06-01 ~ 2026-03-31
 
 #### 概要
 
