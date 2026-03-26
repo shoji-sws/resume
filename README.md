@@ -19,7 +19,7 @@
 - アーキテクト
 - フロントエンドエンジニア
 - サーバーサイドエンジニア
-- モバイルエンジニア(flutter)
+- モバイルエンジニア(Flutter)
 
 <div style="page-break-before:always"></div>
 
@@ -30,26 +30,21 @@
 ※年数は業務・プライベートで使用したおおよその時間
 
 - フロントエンド
-
   - TypeScript(6 年)
-
     - React
-      - react-router
-      - nextjs
-      - material ui
-    - solidjs（趣味で2ヶ月）
+      - React Router
+      - Next.js
+      - Material UI
+    - SolidJS（趣味で2ヶ月）
     - Angular
 
 - モバイル
-
   - Dart(3.5 年)
-
     - Flutter
-      - riverpod
-      - bloc
+      - Riverpod
+      - BLoC
 
 - サーバーサイド
-
   - Python(2 年)
     - Flask
   - Golang(2 年)
@@ -57,23 +52,22 @@
     - Gin
   - Ruby(4 年)
     - Ruby on Rails
-    - rbs
+    - RBS
   - Clojure(0.5 年)
     - duct
   - Kotlin(0.5 年)
     - Spring Boot
-    - gauge
+    - Gauge
 
 - インフラ
-
   - Linux(9 年)
     - ArchLinux
     - Debian
   - AWS(3.5 年)
-    - amplify
-    - lambda
-    - step functions
-    - ecs
+    - Amplify
+    - Lambda
+    - Step Functions
+    - ECS
   - GCP(1 年)
     - Firebase(2 年)
   - ShellScript(8 年)
@@ -83,23 +77,22 @@
     - MySQL
     - PostgreSQL
     - Oracle(2 年)
-  - kubernetes(0.5 年)
-    - skaffold
-  - docker(4 年)
+  - Kubernetes(0.5 年)
+    - Skaffold
+  - Docker(4 年)
 
 - AI Tool(2 年)
-  - claude code
-  - codex
-  - cline
-  - cursor
+  - Claude Code
+  - Codex
+  - Cline
+  - Cursor
   - antigravity
   - openspec
 
-- openapi(2 年)
-  - typespec
+- OpenAPI(2 年)
+  - TypeSpec
 - Neovim(2 年)
   - Lua
-
 
 <div style="page-break-before:always"></div>
 
@@ -126,7 +119,7 @@
   - 困っている人がいたら助ける
 - 詰まったら Github でソースコード読もう
   - 詰まってるライブラリのコードとか Example とか
-  - deepwikiで確認したりする
+  - DeepWikiで確認したりする
 - なるべく難しいことを行わない
   - 前提条件を聞いてみると、そもそももっと簡単な issue になったりする
   - 既存のやり方をそのまま踏襲するのではなく、もっと簡単な方法を見つける
@@ -172,7 +165,7 @@
 
 - AI や LLM に興味があるので、その分野にも進出していきたい
 - 最近は趣味でAIに関する様々な実験や検証を行っている
-  - mastraを使ったAIエージェントの開発
+  - Mastraを使ったAIエージェントの開発
   - ChatGPT、Gemini、Grokなど複数のLLMサービスを契約し、使い心地の比較検証
 - openclawで個人用のエージェント作成
   - openclawから呼べる個人用スキル作成
@@ -184,23 +177,21 @@
 ### 最近触って良かった技術
 
 - LLM
-
   - AIエージェント
-    - claude code
-    - codex
+    - Claude Code
+    - Codex
     - antigravity
   - openspec
     - 仕様駆動開発用のフレームワーク
     - 実装指示と、その理由等付随する情報をドキュメントにしてくれる
       - 複数人での開発の場合、イメージの共有がしやすい
   - assistant-ui
-    - typescriptで簡単にchat uiを作成できる
-
+    - TypeScriptで簡単にchat uiを作成できる
 
 - フロントエンド
-  - solidjs
-    - reactと似たような文法だけど、レンダリングのタイミングがreactよりもわかりやすい（closureみたいな仕組み）
-    - reactよりも仕様やエコシステムが小さくまとまってるのでやりやすい
+  - SolidJS
+    - Reactと似たような文法だけど、レンダリングのタイミングがReactよりもわかりやすい（closureみたいな仕組み）
+    - Reactよりも仕様やエコシステムが小さくまとまってるのでやりやすい
     - vibe codingでも結構良く動く
 
 <div style="page-break-before:always"></div>
@@ -208,12 +199,10 @@
 ### 関心のある技術
 
 - AI
-
   - LLM エージェントによる文章作成
   - character.ai のようなキャラクターチャット
 
 - アーキテクチャ
-
   - 観点
     - ビジネスロジックを綺麗に記述できる
     - 保守性が高い
@@ -221,12 +210,12 @@
     - テストコードを書きやすい
   - リスト
     - 3factor
-    - supabase
-    - hasura
+    - Supabase
+    - Hasura
     - DDD
     - GraphQL
     - serverless
-    - grpc
+    - gRPC
 
 - フロントエンド
   - 観点
@@ -236,8 +225,8 @@
     - モバイルアプリと Web アプリを同時に開発できる
   - リスト
     - shadcn/ui
-    - tailwindcss
-    - storybook
+    - Tailwind CSS
+    - Storybook
 
 <div style="page-break-before:always"></div>
 
@@ -261,13 +250,13 @@
 
 #### 概要
 
-AIで文字起こしや画像編集等の様々な作業を行うアプリで主にフロントエンド（nextjs）を担当
-機能改修では、一部step functionsも修正。
+AIで文字起こしや画像編集等の様々な作業を行うアプリで主にフロントエンド（Next.js）を担当
+機能改修では、一部Step Functionsも修正。
 
 #### ポジション
 
 - フロントエンドエンジニア
-- サーバーサイドエンジニア（step functions）
+- サーバーサイドエンジニア（Step Functions）
 
 #### 担当工程
 
@@ -277,28 +266,28 @@ AIで文字起こしや画像編集等の様々な作業を行うアプリで主
 
 #### 言語・フレームワーク
 
-- nextjs
+- Next.js
   - assistant-ui
-  - drizzle
-- aws
-  - cdk
-  - fargate
-  - s3
-  - postgresql(aws aurora)
-  - step functions
-- claude code
-- cursor
+  - Drizzle
+- AWS
+  - CDK
+  - Fargate
+  - S3
+  - PostgreSQL(AWS Aurora)
+  - Step Functions
+- Claude Code
+- Cursor
 
 #### 業務内容
 
 - assistant-uiを用いたチャット機能作成
-- nextjsを用いた、フロントエンド・BFFの実装
+- Next.jsを用いた、フロントエンド・BFFの実装
 - Drizzle ORMを利用したデータベーススキーマの設計とマイグレーション。
 - AWS CDKを用いたインフラ構築
 
 #### 心がけたこと
 
-- claude code pro maxを使えたので、フル活用して、少ない人員でも効率的にシステム開発することを心がけた。
+- Claude Code pro maxを使えたので、フル活用して、少ない人員でも効率的にシステム開発することを心がけた。
   - ソフトウェアアーキテクチャ整備
   - ドキュメント整備
   - テスト整備
@@ -332,24 +321,26 @@ API 提供サービスの保守・新規開発を行った
 マイクロサービス群
 
 - React
-- express
-- spring boot
-- mysql(aws aurora)
+- Express
+- Spring Boot
+- MySQL(AWS Aurora)
 
 ##### 新規開発
 
-- react-router
-- mysql(aws aurora)
-- drizzle
+- React Router
+- MySQL(AWS Aurora)
+- Drizzle
 
 #### 業務内容
 
 ##### 保守フェーズ
+
 - 既存API(Express, Spring Boot)のバグ修正、パフォーマンス改善、および小規模な機能追加。
 - フロントエンド(React)部分の改修。
 - 定期的なライブラリのアップデートと脆弱性対応。
 
 ##### 新規開発フェーズ
+
 - 新規APIエンドポイントの設計・開発。
 - ReactおよびReact Routerを用いた新規画面の開発。
 - Drizzle ORMを利用したデータベーススキーマの設計とマイグレーション。
@@ -377,20 +368,20 @@ API 提供サービスの保守・新規開発を行った
 #### 言語・フレームワーク
 
 - Ruby on Rails
-  - rbs
-  - sidekiq
-  - rspec
+  - RBS
+  - Sidekiq
+  - RSpec
 - AWS
-  - sqs
-  - s3
-- mysql
+  - SQS
+  - S3
+- MySQL
 - スキーマ関連
-  - openapi
-    - typespec
-  - jtd
-- docker
-  - docker-compose
-- vscode
+  - OpenAPI
+    - TypeSpec
+  - JTD
+- Docker
+  - Docker Compose
+- VSCode
   - liveshare
   - devcontainer
 
@@ -421,7 +412,7 @@ API 提供サービスの保守・新規開発を行った
 #### ポジション
 
 モバイルエンジニア
-サーバーサイド（firebase/cloud functions）
+サーバーサイド（Firebase/Cloud Functions）
 
 #### 担当工程
 
@@ -431,28 +422,28 @@ API 提供サービスの保守・新規開発を行った
 
 #### 言語・フレームワーク
 
-- flutter
-  - riverpod
+- Flutter
+  - Riverpod
   - auto_router
   - freezed
   - flutter_background_geolocation
-- firebase
-  - realtime database
-  - cloud functions
-    - javascript
-    - jest
+- Firebase
+  - Realtime Database
+  - Cloud Functions
+    - JavaScript
+    - Jest
 - Google
-  - google map api
+  - Google Maps API
 
 #### 業務内容
 
-- モバイルと firebase と cloud functions を担当
+- モバイルと Firebase と Cloud Functions を担当
 - モバイル
   - geofencing や geofencing の状態を管理する機能を実装した。
     - エミュレータだと動くが、実機だと動かないという問題があったため、実機でのデバッグ環境を整備した。（デバッグ用機能等）
-- cloud functions
-  - google map api との通信の改善
-    - google map でルートの補正を行う時に、一方通行だとおかしくなる等の分かりづらい問題があった。
+- Cloud Functions
+  - Google Maps API との通信の改善
+    - Google Maps でルートの補正を行う時に、一方通行だとおかしくなる等の分かりづらい問題があった。
   - レイヤー構造のリファクタリング
   - e2e テスト環境整備
 
@@ -478,26 +469,26 @@ API 提供サービスの保守・新規開発を行った
 
 #### 言語・フレームワーク
 
-- react
-  - typescript
-  - yarn
-  - jest
-  - cypress
-  - storybook
-  - create-react-app
+- React
+  - TypeScript
+  - Yarn
+  - Jest
+  - Cypress
+  - Storybook
+  - Create React App
   - esbuild
-  - material ui
-  - immer
-  - redux-tool-kit
+  - Material UI
+  - Immer
+  - Redux Toolkit
   - axios
-- rails(閲覧のみ)
-- mysql
-- docker
+- Rails(閲覧のみ)
+- MySQL
+- Docker
 
 #### 業務内容
 
 - boilerplate が書かないと行けないコードがとても多いため、業務に支障が出ていた
-  - redux-tool-kit で rkt query が使われていなかったので、openapi から rtk query コードを自動生成できるようにした。
+  - Redux Toolkit で RTK Query が使われていなかったので、OpenAPI から RTK Query コードを自動生成できるようにした。
   - 値の受け渡しが props リレーになっていた
     - custom hooks を使って global なストア、関数を定義して、props リレーを避けることで保守性を改善した。
 - UI 用のコンポーネントやテーマを整理した。
@@ -529,27 +520,26 @@ Web, Android, iOS 対応
 
 #### 言語・フレームワーク
 
-- flutter
-  - riverpod
+- Flutter
+  - Riverpod
   - go_router_builder
   - flutter_hooks
   - freezed
-- firebase
+- Firebase
   - firestore
-  - cloud functions
-  - fcm
+  - Cloud Functions
+  - FCM
   - app authentication
-- openapi
-- python(ここは自分は実装せず)
-  - django
-- bitrise(CI)
+- OpenAPI
+- Python(ここは自分は実装せず)
+  - Django
+- Bitrise(CI)
 
 #### 業務内容
 
 - フロントエンド担当として、Web と Mobile の両方を Flutter で実装
   - この際、ある程度実装されたものを前任から引き継いだのが、レイヤー分割されておらず、これ以上変更ができない状況になっていた。既存アーキテクチャでは今後の拡張や保守が極めて困難であると判断し、関係者と合意の上で全面的にリアーキテクチャ（フルリプレイス）を実施した。
 - デザイン
-
   - Flutter のデフォルトに沿っていないデザインが決まっていたが、そのままだとリリース日に間に合わないため、Flutter のデフォルトにある程度よせるように調整した。
   - Web と Mobile で全く別のデザインになっていたので、先に Mobile 側を作り込み、作成した Mobile の Widget を利用して、Web 側で実装できるよう調整した。
 
@@ -583,16 +573,16 @@ Web, Android, iOS 対応
 
 #### 言語・フレームワーク
 
-- clojure
+- Clojure
   - duct
 - gauge-java
   - e2e
-- wiremock
-- kubernetes
-  - skaffold
+- WireMock
+- Kubernetes
+  - Skaffold
 - DB
-  - postgresql
-  - mysql
+  - PostgreSQL
+  - MySQL
 
 #### 担当工程
 
@@ -632,8 +622,8 @@ Web, Android, iOS 対応
 
 - Ruby on Rails
 - Preact (typescript)
-- mysql
-- docker
+- MySQL
+- Docker
 
 #### 担当工程
 
@@ -643,7 +633,7 @@ Web, Android, iOS 対応
 #### 業務内容
 
 - フロントエンドに新規機能を追加する際、既存の設計だと改修が難しかったので、新規部分は新しく設計した
-  - ビルドファイルの容量を少なくする要件があったため、preact-hooks のみを使い保守性が高くなるように実装した
+  - ビルドファイルの容量を少なくする要件があったため、Preact-hooks のみを使い保守性が高くなるように実装した
 
 <div style="page-break-before:always"></div>
 
@@ -674,11 +664,11 @@ Web, Android, iOS 対応
 
 #### 言語・フレームワーク
 
-- flutter
+- Flutter
   - freezed
-  - bloc
-- bitrise
-- circle ci
+  - BLoC
+- Bitrise
+- CircleCI
 
 #### 業務内容
 
