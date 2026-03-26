@@ -29,6 +29,17 @@
 
 ※年数は業務・プライベートで使用したおおよその時間
 
+- フロントエンド
+
+  - TypeScript(6 年)
+
+    - React
+      - react-router
+      - next
+      - material ui
+    - solidjs（趣味で2ヶ月）
+    - Angular
+
 - モバイル
 
   - Dart(3 年)
@@ -36,17 +47,6 @@
     - Flutter
       - riverpod
       - bloc
-
-- フロントエンド
-
-  - TypeScript(5 年)
-
-    - React
-      - react-router
-      - next
-      - material ui
-      - redux
-    - Angular
 
 - サーバーサイド
 
@@ -71,10 +71,14 @@
 
 - インフラ
 
-  - Linux(8 年)
+  - Linux(9 年)
     - ArchLinux
     - Debian
-  - AWS(2.5 年)
+  - AWS(3.5 年)
+    - amplify
+    - lambda
+    - step funtions
+    - ecs
   - GCP(1 年)
     - Firebase(2 年)
   - ShellScript(8 年)
@@ -88,12 +92,19 @@
     - skaffold
   - docker(4 年)
 
+- AI Tool
+  - claude code
+  - codex
+  - cline
+  - cursor
+  - antigravity
+  - openspec
+
 - openapi(2 年)
   - typespec
 - Noevim(2 年)
   - Lua
-- VSCode
-  - cline
+
 
 <div style="page-break-before:always"></div>
 
@@ -105,6 +116,7 @@
 - 開発の効率化とチームの技術力向上に注力
 - 簡潔な解決策を模索。
 - 小さなライブラリの組み合わせやテキスト形式の採用など、シンプルで効率的な方法
+- 長く考えるよりも、手を動かす
 
 <div style="page-break-before:always"></div>
 
@@ -113,13 +125,13 @@
 仕事をする上で大切にしている価値観（上記の詳細）
 
 - シンプルなものが好き
-- チームのベロシティを上げることが開発において大事
+- AIとチームのベロシティを上げることが開発において大事
   - 改善できる場合はすぐに改善する
-  - チームの誰でも保守できるコードを書くべき
   - チームの技術レベルが上がるような行動を心掛ける
   - 困っている人がいたら助ける
 - 詰まったら Github でソースコード読もう
   - 詰まってるライブラリのコードとか Example とか
+  - deepwikiで確認したりする
 - なるべく難しいことを行わない
   - 前提条件を聞いてみると、そもそももっと簡単な issue になったりする
   - 既存のやり方をそのまま踏襲するのではなく、もっと簡単な方法を見つける
@@ -141,8 +153,8 @@
 - 現場を改善した経験が多い
   - 開発方法、開発論の導入
     - DDD
-    - BDD
     - TDD
+    - BDD
     - Clean Architecture
     - 宣言的プログラミング
     - ライブラリ
@@ -156,8 +168,8 @@
 
 ## 弱み
 
-- 少し言葉が強いときがある
-  - 例: 「これをやるのは難しいから、別の方法がいい」等
+- 大規模で複雑なシステム（複数のマイクロサービス群）でチューニングした経験はあまりない
+- 理論的にLLMのチューニングをしたことはあまりない。
 
 <div style="page-break-before:always"></div>
 
@@ -167,7 +179,7 @@
 - 最近は趣味でAIに関する様々な実験や検証を行っている
   - mastraを使ったAIエージェントの開発
   - ChatGPT、Gemini、Grokなど複数のLLMサービスを契約し、使い心地の比較検証
-  - 各LLMを使った競馬予想のベンチマーク実験
+- openclawで自分用のエージェント作成
 
 <div style="page-break-before:always"></div>
 
@@ -177,33 +189,23 @@
 
 - LLM
 
-  - cline
-    - vscode上で動くagent
-    - すごい勢いで実装、修正ができる
-  - github copilot
-    - vscode上で動くagent
-    - コード補完が便利
-    - agentに関しては、clineだと広範囲修正になることが多いので、もっと小さい範囲で修正するときや、テストコード生成で使う。
+  - AIエージェント
+    - claude code
+    - codex
+    - antigravity
+  - openspec
+    - 仕様駆動開発用のフレームワーク
+    - 実装指示と、その理由等付随する情報をドキュメントにしてくれる
+      - 複数人での開発の場合、イメージの共有がしやすい
   - assistant-ui
     - typescriptで簡単にchat uiを作成できる
-  - mastra
-    - typescriptで簡単にagentを構築できる
 
-- 関数型言語、宣言的プログラミング
-  - hasura
-    - DB を GraphQL として直接扱える
-    - DB の migration の管理や relation の管理ができる
-  - F#
-    - フロントエンドもバックエンドもできる関数型言語で面白い
-    - 関数型言語でよくある Result 型等も使えるので typescript よりも安全に開発できる
-    - Feliz
-      - F# で React を書ける
-      - React が分かれば、Feliz もすぐに使える
-      - react + typescript で関数型言語的に書くには、知識が必要だが、feliz なら自然に書きやすい
-  - gleam（勉強中）
-    - Erlang VM 上で動く関数型言語
-    - typescript よりも関数型プログラミングをやりやすい
-    - Elmのように型安全にフロントエンドを開発できる
+
+- フロントエンド
+  - solidjs
+    - reactと似たような文法だけど、レンダリングのタイミングがreactよりもわかりやすい（closureみたいな仕組み）
+    - reactよりも仕様やエコシステムが小さくまとまってるのでやりやすい
+    - vibe codingでも結構良く動く
 
 <div style="page-break-before:always"></div>
 
@@ -212,7 +214,7 @@
 - AI
 
   - LLM エージェントによる文章作成
-  - character.ai のようなチャットエージェント
+  - character.ai のようなキャラクターチャット
 
 - アーキテクチャ
 
@@ -239,10 +241,7 @@
   - リスト
     - shadcn/ui
     - tailwindcss
-    - material ui
-    - styled-components
     - storybook
-    - bolt.new
 
 <div style="page-break-before:always"></div>
 
@@ -253,13 +252,63 @@
 - Clean Architecture
 - 良いコード/悪いコードで学ぶ設計入門
 - エリック・エヴァンスのドメイン駆動設計
-- 7 つの言語 7 つの世界
 
 <div style="page-break-before:always"></div>
 
 ## 職務経歴
 
 近年従事した主な大きな案件に関して
+
+### AIエージェント・アプリ開発
+
+2024-06-01 ~ 2025-03-31
+
+#### 概要
+
+AIで文字起こしや画像編集等の様々な作業を行うアプリで主にフロントエンド（nextjs）を担当
+機能改修では、一部step functionsも修正。
+
+#### ポジション
+
+- フロントエンドエンジニア
+- サーバーサイドエンジニア（step functions）
+
+#### 担当工程
+
+- 開発
+- インフラ
+- テスト
+
+#### 言語・フレームワーク
+
+- nextjs
+  - assistant-ui
+  - drizzle
+- aws
+  - cdk
+  - fargate
+  - s3
+  - postgresql(aws aurora)
+  - step functions
+- claude code
+- cursor
+
+#### 業務内容
+
+- assistant-uiを用いたチャット機能作成
+- nextjsを用いた、フロントエンド・BFFの実装
+- Drizzle ORMを利用したデータベーススキーマの設計とマイグレーション。
+- AWS CDKを用いたインフラ構築
+
+#### 心がけたこと
+
+- claude code pro maxを使えたので、フル活用して、少ない人員でも効率的にシステム開発することを心がけた。
+  - ソフトウェアアーキテクチャ整備
+  - ドキュメント整備
+  - テスト整備
+  - 並行開発
+
+<div style="page-break-before:always"></div>
 
 ### API提供サービスの保守・新規開発
 
