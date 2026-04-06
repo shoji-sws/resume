@@ -8,7 +8,7 @@
 - Name: 東海林 昴(Subaru Shoji)
 - Zenn: https://zenn.dev/suba
 - ブログ: https://www.simple-web-system.work/
-- Twitter: https://twitter.com/subaru_shoji
+- X: https://x.com/subaru_shoji
 - Github: https://github.com/subaru-shoji
 - プログラマー歴: 2014 年〜(12 年目)
 - フリーランス歴: 2016 年〜(10 年目)
