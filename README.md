@@ -89,10 +89,11 @@
   - antigravity
   - openspec
 
-- OpenAPI(2 年)
-  - TypeSpec
-- Neovim(2 年)
-  - Lua
+- その他
+  - OpenAPI(2 年)
+    - TypeSpec
+  - Neovim(2 年)
+    - Lua
 
 <div style="page-break-before:always"></div>
 
@@ -201,32 +202,19 @@
 - AI
   - LLM エージェントによる文章作成
   - character.ai のようなキャラクターチャット
+  - MCP
+  - Skills
 
 - アーキテクチャ
-  - 観点
-    - ビジネスロジックを綺麗に記述できる
-    - 保守性が高い
-    - スケールアウトしやすい
-    - テストコードを書きやすい
-  - リスト
-    - 3factor
-    - Supabase
-    - Hasura
-    - DDD
-    - GraphQL
-    - serverless
-    - gRPC
+  - 3factor
+  - Cloudflare
+  - DDD
+  - Edge Computing
 
 - フロントエンド
-  - 観点
-    - テストコードを書きやすい
-    - デザインシステムを作りやすい
-    - パフォーマンスを意識したコードを書きやすい
-    - モバイルアプリと Web アプリを同時に開発できる
-  - リスト
-    - shadcn/ui
-    - Tailwind CSS
-    - Storybook
+  - ui-ux-pro-max-skill
+  - playwright-agent
+  - SolidJS
 
 <div style="page-break-before:always"></div>
 
