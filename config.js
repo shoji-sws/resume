@@ -14,5 +14,6 @@ module.exports = {
 		p, ul { margin-top: 0; margin-bottom: 6px; }
 		hr { margin: 14px 0; }
 		h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+		td:first-child { white-space: nowrap; }
 	`,
 };
